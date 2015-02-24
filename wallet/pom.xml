@@ -6,8 +6,8 @@
 
 	<artifactId>wallet</artifactId>
 	<packaging>apk</packaging>
-	<version>4.19-test</version>
-	<name>Bitcoin Wallet</name>
+	<version>4.19</version>
+	<name>Digibyte Wallet</name>
 
 	<parent>
 		<groupId>de.schildbach.wallet</groupId>
@@ -65,7 +65,7 @@
 		<!-- com.google.bitcoin.* -->
 		<dependency>
 			<groupId>org.bitcoinj</groupId>
-			<artifactId>bitcoinj-core</artifactId>
+			<artifactId>digibytej-core</artifactId>
 			<version>0.12.2</version>
 		</dependency>
 

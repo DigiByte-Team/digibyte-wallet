@@ -3,11 +3,11 @@
   <string name="help_wallet">
 <![CDATA[
 		<p>
-			A parte superior esquerda da tela exibe o seu endereço de Bitcoin selecionado, para que outras pessoas possam enviar-lhe Bitcoins. 
+			A parte superior esquerda da tela exibe o seu endereço de Digibyte selecionado, para que outras pessoas possam enviar-lhe Digibytes. 
 			Toque para trocar o endereço.
 		</p>
 		<p>
-			O código QR na direita contém o seu endereço bitcoin e pode ser usado para ser lido por outro dispositivo.
+			O código QR na direita contém o seu endereço digibyte e pode ser usado para ser lido por outro dispositivo.
 			Toque no código QR para obter uma versão ampliada.
 		</p>
 		<p>

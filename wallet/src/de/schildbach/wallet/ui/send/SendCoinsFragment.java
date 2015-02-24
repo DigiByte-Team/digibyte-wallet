@@ -118,7 +118,7 @@ import de.schildbach.wallet.ui.TransactionsListAdapter;
 import de.schildbach.wallet.util.Bluetooth;
 import de.schildbach.wallet.util.Nfc;
 import de.schildbach.wallet.util.WalletUtils;
-import de.schildbach.wallet_test.R;
+import de.schildbach.wallet.R;
 
 /**
  * @author Andreas Schildbach
@@ -521,7 +521,7 @@ public final class SendCoinsFragment extends Fragment
 			final String mimeType = intent.getType();
 
 			if ((Intent.ACTION_VIEW.equals(action) || NfcAdapter.ACTION_NDEF_DISCOVERED.equals(action)) && intentUri != null
-					&& "bitcoin".equals(scheme))
+					&& "digibyte".equals(scheme))
 			{
 				initStateFromBitcoinUri(intentUri);
 			}

@@ -76,7 +76,7 @@ import de.schildbach.wallet.util.BitmapFragment;
 import de.schildbach.wallet.util.Bluetooth;
 import de.schildbach.wallet.util.Nfc;
 import de.schildbach.wallet.util.Qr;
-import de.schildbach.wallet_test.R;
+import de.schildbach.wallet.R;
 
 /**
  * @author Andreas Schildbach
@@ -377,7 +377,7 @@ public final class RequestCoinsFragment extends Fragment implements NfcAdapter.C
 	private void handleCopy()
 	{
 		final Uri request = Uri.parse(determineBitcoinRequestStr(false));
-		clipboardManager.setPrimaryClip(ClipData.newRawUri("Bitcoin payment request", request));
+		clipboardManager.setPrimaryClip(ClipData.newRawUri("Digibyte payment request", request));
 		log.info("payment request copied to clipboard: {}", request);
 		activity.toast(R.string.request_coins_clipboard_msg);
 	}

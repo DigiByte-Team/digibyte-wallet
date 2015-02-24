@@ -62,7 +62,7 @@ import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.data.PaymentIntent;
 import de.schildbach.wallet.util.Io;
 import de.schildbach.wallet.util.Qr;
-import de.schildbach.wallet_test.R;
+import de.schildbach.wallet.R;
 
 /**
  * @author Andreas Schildbach
@@ -110,7 +110,7 @@ public abstract class InputParser
 					error(R.string.input_parser_invalid_paymentrequest, x.getMessage());
 				}
 			}
-			else if (input.startsWith("bitcoin:"))
+			else if (input.startsWith("digibyte:"))
 			{
 				try
 				{
@@ -123,7 +123,7 @@ public abstract class InputParser
 				}
 				catch (final BitcoinURIParseException x)
 				{
-					log.info("got invalid bitcoin uri: '" + input + "'", x);
+					log.info("got invalid digibyte uri: '" + input + "'", x);
 
 					error(R.string.input_parser_invalid_bitcoin_uri, input);
 				}
