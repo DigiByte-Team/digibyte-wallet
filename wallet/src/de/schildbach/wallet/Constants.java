@@ -71,7 +71,7 @@ public final class Constants
 	/** Maximum size of backups. Files larger will be rejected. */
 	public static final long BACKUP_MAX_CHARS = 10000000;
 
-	private static final String EXPLORE_BASE_URL_PROD = "https://www.digiexplorer.info";
+	private static final String EXPLORE_BASE_URL_PROD = "https://www.digiexplorer.info/";
 	private static final String EXPLORE_BASE_URL_TEST = "https://www.biteasy.com/testnet/";
 	/** Base URL for browsing transactions, blocks or addresses. */
 	public static final String EXPLORE_BASE_URL = NETWORK_PARAMETERS.getId().equals(NetworkParameters.ID_MAINNET) ? EXPLORE_BASE_URL_PROD
@@ -123,7 +123,7 @@ public final class Constants
 	public static final int ADDRESS_FORMAT_GROUP_SIZE = 4;
 	public static final int ADDRESS_FORMAT_LINE_SIZE = 12;
 
-	public static final MonetaryFormat LOCAL_FORMAT = new MonetaryFormat().noCode().minDecimals(2).optionalDecimals();
+	public static final MonetaryFormat LOCAL_FORMAT = new MonetaryFormat().noCode().minDecimals(6).optionalDecimals();
 
 	public static final String SOURCE_URL = "https://github.com/DigiByte-Team/digibyte-wallet";
 	public static final String BINARY_URL = "https://github.com/DigiByte-Team/digibyte-wallet/releases";

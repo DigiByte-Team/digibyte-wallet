@@ -92,6 +92,7 @@
 					<artifactId>android-maven-plugin</artifactId>
 					<version>4.0.0</version>
 					<configuration>
+						<argLine>-Xmx4098m</argLine>
 						<genDirectory>${basedir}/gen</genDirectory>
 					</configuration>
 					<extensions>true</extensions>
