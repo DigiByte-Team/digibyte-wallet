@@ -144,7 +144,6 @@
 						<groupId>com.simpligility.maven.plugins</groupId>
 						<artifactId>android-maven-plugin</artifactId>
 						<configuration>
-							<argLine>-Xmx4098m</argLine>
 							<release>true</release>
 							<proguard>
 								<skip>false</skip>
@@ -186,7 +185,6 @@
 						<id>hdpi</id>
 						<phase>initialize</phase>
 						<configuration>
-							<argLine>-Xmx4098m</argLine>
 							<srcDir>graphics</srcDir>
 							<srcIncludes>ic_app_color_48dp.svg</srcIncludes>
 							<destDir>${basedir}/res/drawable-hdpi/</destDir>
@@ -201,7 +199,6 @@
 						<id>xhdpi</id>
 						<phase>initialize</phase>
 						<configuration>
-							<argLine>-Xmx4098m</argLine>
 							<srcDir>graphics</srcDir>
 							<srcIncludes>ic_app_color_48dp.svg</srcIncludes>
 							<destDir>${basedir}/res/drawable-xhdpi/</destDir>
@@ -216,7 +213,6 @@
 						<id>xxhdpi</id>
 						<phase>initialize</phase>
 						<configuration>
-							<argLine>-Xmx4098m</argLine>
 							<srcDir>graphics</srcDir>
 							<srcIncludes>ic_app_color_48dp.svg</srcIncludes>
 							<destDir>${basedir}/res/drawable-xxhdpi/</destDir>
@@ -246,7 +242,6 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<argLine>-Xmx4098m</argLine>
 					<source>1.6</source>
 					<target>1.6</target>
 				</configuration>
@@ -255,7 +250,6 @@
 				<groupId>com.simpligility.maven.plugins</groupId>
 				<artifactId>android-maven-plugin</artifactId>
 				<configuration>
-					<argLine>-Xmx4098m</argLine>
 					<androidManifestFile>AndroidManifest.xml</androidManifestFile>
 					<resourceDirectory>res</resourceDirectory>
 					<assetsDirectory>assets</assetsDirectory>
@@ -274,7 +268,6 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
 				<configuration>
-				<argLine>-Xmx4098m</argLine>
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>false</downloadJavadocs>
 					<additionalProjectnatures>
@@ -308,7 +301,6 @@
 				<artifactId>findbugs-maven-plugin</artifactId>
 				<version>2.5.2</version>
 				<configuration>
-					<argLine>-Xmx4098m</argLine>
 					<onlyAnalyze>de.schildbach.wallet.-</onlyAnalyze>
 				</configuration>
 			</plugin>
